@@ -13,4 +13,4 @@ app.use(express.json());
 // Initiate function from htmlRoutes //
 require('./routes/htmlRoutes')(app);
 
-app.listen(PORT, () => console.log(`Now listening on port: ${PORT}`));
+app.listen(PORT, () => console.log(`Now listening on port: localhost:${PORT}`));

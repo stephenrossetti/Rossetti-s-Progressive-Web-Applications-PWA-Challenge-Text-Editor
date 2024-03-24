@@ -10,6 +10,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@babel/core": "^7.24.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
         "express": "^4.17.1"
     },
     "devDependencies": {
