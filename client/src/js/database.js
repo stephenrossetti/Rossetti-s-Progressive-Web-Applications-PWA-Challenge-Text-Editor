@@ -44,7 +44,7 @@ export const getDb = async () => {
   // Use the .getAll() method to get all data in the database.
   const request = store.getAll();
   const result = await request;
-  console.log('result.value', result.value);
+  console.log('Data retrieved from database', result);
   return result.value;
 }
 
