@@ -18,7 +18,7 @@ const initdb = async () =>
 
 // PUT method to add content in database //
 export const putDb = async (content) => {
-  console.log('Text has been updated in the database');
+  console.log('PUT to the database');
   // Create a connection to the database database and version we want to use.
   const contactDb = await openDB('jate', 1);
   // Create a new transaction and specify the database and data privileges, which is readwrite //
@@ -26,16 +26,17 @@ export const putDb = async (content) => {
   // Open up the desired object store.
   const store = tx.objectStore('jate');
   // Use the .put() method to add content to database.
-  const request = store.put({id: 1, value: content});
+  // Can remove the id: 1 if we want it to auto-increment //
+  const request = store.put({ id: 1, value: content });
   // Get confirmation of the request.
   const result = await request;
-  console.log('result.value', result);
+  console.log('Data saved to the database', result);
 };
 
 // GET method for all the content in database //
 // Similar function to PUT above with a few changes //
 export const getDb = async () => {
-  console.log('Text has been retrieved from the database');
+  console.log('GET from the the database');
   const contactDb = await openDB('jate', 1);
   // Data privileges is read only //
   const tx = contactDb.transaction('jate', 'readonly');
