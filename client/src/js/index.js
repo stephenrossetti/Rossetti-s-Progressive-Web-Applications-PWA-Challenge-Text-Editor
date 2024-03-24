@@ -1,11 +1,14 @@
+// Import Workbox class as well as js/css from other files //
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
 import '../css/style.css';
 
+// Clear the content in #main //
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
+// loading spinner function //
 const loadSpinner = () => {
   const spinner = document.createElement('div');
   spinner.classList.add('spinner');
@@ -17,6 +20,7 @@ const loadSpinner = () => {
   main.appendChild(spinner);
 };
 
+// Initializes the imported Editor function and creates new class //
 const editor = new Editor();
 
 if (typeof editor === 'undefined') {
