@@ -117,6 +117,10 @@ THEN I should have proper build scripts for a webpack application
 
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+- ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+
+- ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
 ## Getting Started
 
 How to get started with the Text Editor PWA!
@@ -218,8 +222,8 @@ Coding help from external sources:
 Thanks to our resources on creating our app!
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-- [Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+- [Render](https://https://render.com/)
+- [Heroku](https://heroku.com)
 - [Static Badges](https://shields.io/badges)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
